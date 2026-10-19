@@ -389,9 +389,7 @@ export default function App() {
                 <ArrowLeftIcon style={{ width: 16, height: 16, marginRight: 6 }} />
                 Kembali ke Portal Katalog Laporan
               </button>
-              <span className="report-current-url">
-                Lokasi: <code>/pembuatan-website-jakarta</code>
-              </span>
+
             </div>
           </div>
 
