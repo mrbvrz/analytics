@@ -18,24 +18,21 @@ export function Stat({
   icon?: React.ComponentType<{ style?: React.CSSProperties }>;
 }) {
   return (
-    <div className="stat" style={{ position: "relative" }}>
-      {IconComponent && (
-        <div
-          style={{
-            position: "absolute",
-            top: "12px",
-            right: "12px",
-            color: "var(--accent)",
-            opacity: 0.75,
-            pointerEvents: "none",
-          }}
-        >
-          <IconComponent style={{ width: 17, height: 17 }} />
+    <div className="stat">
+      {(IconComponent || source) && (
+        <div className="stat__top">
+          {IconComponent ? (
+            <div className="stat__icon-box">
+              <IconComponent style={{ width: 16, height: 16 }} />
+            </div>
+          ) : (
+            <div />
+          )}
+          {source ? <span className="stat__source">{source}</span> : null}
         </div>
       )}
       <span className="stat__value">{value}</span>
       <span className="stat__label">{label}</span>
-      {source ? <span className="stat__source">{source}</span> : null}
     </div>
   );
 }

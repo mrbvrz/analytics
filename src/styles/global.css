@@ -361,28 +361,58 @@ main,
   display: flex;
   flex-direction: column;
   gap: var(--s1);
-  transition: background-color 0.15s ease;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
 }
 
 .stat:hover {
   background: var(--surface-sunken);
 }
 
+.stat__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--s2);
+}
+
+.stat__icon-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+  transition: all 0.2s ease;
+}
+
+.stat:hover .stat__icon-box {
+  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
 .stat__value {
-  font-size: 26px;
-  font-weight: 550;
-  letter-spacing: -0.03em;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
   font-feature-settings: var(--num-feat);
+  line-height: 1.25;
+  color: var(--text-primary);
+  word-break: break-word;
 }
 
 .stat__label {
-  font-size: 12.5px;
+  font-size: 12px;
   color: var(--text-muted);
-  line-height: 1.35;
+  line-height: 1.4;
+  margin-top: 2px;
 }
 
 .stat__source {
-  font-size: 11.5px;
+  font-size: 11px;
   color: var(--text-accent);
   font-weight: 500;
 }
@@ -825,13 +855,29 @@ main,
     padding: 8px 10px !important;
   }
 
-  .stat__val {
-    font-size: 17px !important;
+  .stat__top {
+    margin-bottom: 4px !important;
+  }
+
+  .stat__icon-box {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .stat__icon-box svg {
+    width: 13px !important;
+    height: 13px !important;
+  }
+
+  .stat__val,
+  .stat__value {
+    font-size: 15px !important;
     margin-bottom: 2px !important;
   }
 
-  .stat__lbl {
-    font-size: 10px !important;
+  .stat__lbl,
+  .stat__label {
+    font-size: 9.5px !important;
   }
 
   /* ── Tabel Data (Responsif Cetak: Lebar Tetap 100%, Wrap Teks Penuh) ── */
