@@ -367,11 +367,10 @@ main,
 }
 
 .stat:hover {
-  background: color-mix(in srgb, var(--accent) 5.5%, var(--surface-page));
-  box-shadow: 0 0 0 1.5px var(--accent), 0 8px 24px -4px color-mix(in srgb, var(--accent) 20%, transparent);
+  background: color-mix(in srgb, var(--accent) 6.5%, var(--surface-page));
+  box-shadow: 0 6px 18px -4px color-mix(in srgb, var(--stone-900) 8%, transparent);
   z-index: 2;
   transform: translateY(-2px);
-  border-radius: 4px;
 }
 
 .stat__top {
