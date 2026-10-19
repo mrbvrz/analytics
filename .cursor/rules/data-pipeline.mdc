@@ -1,0 +1,62 @@
+---
+description: Aturan pipeline data scraping dan agregasi
+globs: pipeline/**/*
+alwaysApply: false
+---
+
+# Pipeline data
+
+```
+API Zapi ──npm run fetch──> pipeline/data/*.json
+                                   │
+                          npm run data  (build_report.py)
+                                   ▼
+                        src/data/report.json
+```
+
+## Aturan
+
+**Nama berkas menentukan sumber data.** `build_report.py` memilih berkas lewat
+glob: `shopee_*.json`, `blibli_*.json`, `jobstreet_*.json`, `glints_*.json`,
+`kalibrr_*.json`, `dealls_*.json`, `linkedin_*.json`. Menambah berkas dengan
+awalan itu berarti menambahkannya ke laporan. Jangan meninggalkan berkas
+percobaan dengan awalan tersebut di `pipeline/data/`.
+
+**Kunci API tidak masuk repo.** `fetch.sh` membaca `ZAPI_KEY` atau
+`pipeline/.zapi_key` (gitignored). Jangan menulis kunci ke dalam skrip.
+
+**`fetch.sh` selalu `cd` ke folder skripnya sendiri**, sehingga outputnya
+mendarat di `pipeline/data/` dari direktori mana pun. Jangan menghapus baris itu.
+
+**Jangan menyalin pola klasifikasi.** Taksonomi layanan ada sekali di kamus
+`PATTERNS`, dan `SERVICES`/`TIERS`/`EX_SETS` merujuk kuncinya lewat `rx()`.
+Menyalin regex ke tempat lain berarti perbaikan akan terlewat di salah satu
+salinan.
+
+**Token pendek wajib pakai batas kata.** `\bapi\b`, bukan `api`. Tanpa batas
+kata, "rapi" terhitung sebagai "api" dan "reaction" sebagai "react" — ini pernah
+terjadi dan membuat kategori "custom development" berisi listing murah.
+
+**Jangan menambah kata pemasaran ke pola.** "cepat" dan "murah" muncul di hampir
+semua listing, sehingga kategori yang memakainya membengkak. Kata itu pernah ada
+di pola "web instan" dan membuatnya tampak 28% padahal sebenarnya 9%.
+
+**Bagian `self-check` di akhir `build_report.py` harus tetap gagal keras.**
+Assert itu menangkap perubahan bentuk data dan kebocoran pola klasifikasi.
+Kalau sebuah assert gagal, perbaiki penyebabnya — jangan dilonggarkan.
+
+**Ubah bentuk keluaran → ubah `src/data/report.types.ts`.** `npm run typecheck`
+akan menunjukkan setiap tempat yang perlu disesuaikan.
+
+## Setelah mengubah pipeline
+
+```bash
+npm run data        # agregasi ulang + self-check
+npm run typecheck   # kontrak tipe masih cocok?
+npm run build
+```
+
+Ingat: hasil pencarian marketplace berubah antar penarikan, jadi angka laporan
+akan bergeser setelah `npm run fetch`. Periksa kembali setiap kalimat naratif
+yang menyatakan perbandingan, arah, atau besaran relatif — kalimat seperti itu
+mudah menjadi bohong ketika datanya bergerak.

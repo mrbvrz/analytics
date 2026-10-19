@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+
+# kunci API dan data hasil scraping tidak masuk repo
+pipeline/.zapi_key
+pipeline/data/
+
+# perkakas
+.DS_Store
+*.tsbuildinfo
+.vercel

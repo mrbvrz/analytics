@@ -1,0 +1,175 @@
+/* ==========================================================================
+   charts.css — bingkai grafik, tooltip, legenda, dan gaya Recharts
+   Recharts merender SVG; warna diteruskan sebagai var(--token) sehingga
+   tema tetap satu sumber di tokens.css.
+   ========================================================================== */
+
+.figure {
+  margin: var(--s5) 0 0;
+}
+
+.figure__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s4);
+  margin-bottom: var(--s4);
+}
+
+.figure__title {
+  font-size: 12.5px;
+  font-weight: 550;
+  color: var(--text-secondary);
+}
+
+.figure__note {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-feature-settings: var(--num-feat);
+}
+
+.figure__body {
+  width: 100%;
+}
+
+/* Recharts — jangan biarkan teks SVG mewarisi letter-spacing judul */
+.recharts-text {
+  letter-spacing: 0;
+  font-feature-settings: var(--num-feat);
+}
+
+.recharts-cartesian-axis-line,
+.recharts-cartesian-axis-tick-line {
+  stroke: var(--chart-axis);
+}
+
+.recharts-cartesian-grid line {
+  stroke: var(--chart-grid);
+}
+
+.recharts-surface {
+  overflow: visible;
+}
+
+.recharts-sector:focus,
+.recharts-rectangle:focus {
+  outline: none;
+}
+
+/* ── tooltip ─────────────────────────────────────────────────── */
+
+.tip {
+  background: var(--surface-raised);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  padding: var(--s2) var(--s3);
+  font-size: 12.5px;
+  line-height: 1.5;
+  box-shadow: 0 6px 18px -8px rgb(28 25 23 / 0.25);
+  min-width: 132px;
+}
+
+.tip__label {
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+
+.tip__row {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s4);
+  font-feature-settings: var(--num-feat);
+}
+
+.tip__row b {
+  font-weight: 600;
+}
+
+/* ── legenda ─────────────────────────────────────────────────── */
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2) var(--s5);
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: var(--s3);
+}
+
+.legend__item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s2);
+}
+
+.legend__swatch {
+  width: 14px;
+  height: 8px;
+  border-radius: var(--radius-xs);
+  flex: none;
+}
+
+.legend__swatch--round {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+}
+
+/* ── contoh listing ──────────────────────────────────────────── */
+
+.examples {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(272px, 1fr));
+  gap: 1px;
+  background: var(--border-default);
+  border: 1px solid var(--border-default);
+  margin-top: var(--s5);
+}
+
+.examples__cell {
+  background: var(--surface-page);
+  padding: var(--s4) var(--s5);
+}
+
+.examples__title {
+  font-size: 12.5px;
+  font-weight: 550;
+  color: var(--text-muted);
+  margin: 0 0 var(--s3);
+}
+
+.examples__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+}
+
+.examples__list li {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s3);
+  align-items: baseline;
+  font-size: 12.5px;
+  border-bottom: 1px dashed var(--border-soft);
+  padding-bottom: var(--s2);
+}
+
+.examples__list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.examples__name {
+  color: var(--text-secondary);
+  line-height: 1.35;
+}
+
+.examples__price {
+  color: var(--text-accent);
+  font-feature-settings: var(--num-feat);
+  font-weight: 550;
+  white-space: nowrap;
+}

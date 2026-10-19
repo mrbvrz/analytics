@@ -1,0 +1,60 @@
+---
+description: Aturan grafik Recharts untuk laporan ini
+globs: src/charts/**/*.tsx
+alwaysApply: false
+---
+
+# Grafik
+
+Recharts 3 + React 18. Semua konfigurasi warna dan sumbu berasal dari
+`src/charts/theme.ts` — jangan menulis warna literal di komponen grafik.
+
+```tsx
+fill={C.bar}        // benar
+fill="#bc4a1a"      // salah
+```
+
+## Wajib
+
+**Bungkus dengan `ChartFrame`.** Setiap grafik tanpa kecuali. Bingkai ini
+menjaga judul, catatan ukuran sampel, dan legenda selalu di posisi yang sama.
+
+**Isi `note` dengan ukuran sampel** (`"n=285 listing"`). Pembaca berhak tahu
+berapa data di balik grafik.
+
+**Sertakan legenda begitu ada lebih dari satu warna.** Grafik juga wajib
+mencetak angkanya lewat `LabelList` atau legenda — warna dan panjang batang saja
+tidak cukup bagi pembaca yang tidak dapat membedakannya dengan tepat.
+
+**`isAnimationActive={false}` pada setiap `Bar` dan `Pie`.** Recharts
+menganimasikan dari tinggi nol, sehingga grafik tampak kosong pada paint pertama
+dan pada tangkapan layar verifikasi.
+
+**`yWidth` pada grafik batang horizontal harus cukup** agar label muat satu
+baris. Label dua baris bertabrakan pada `ROW_H` 30px. Acuan yang sudah dipakai:
+jenis jasa 224, skill 184, perusahaan 238, jenis kontrak 130, lokasi 180.
+
+## Memilih bentuk grafik
+
+| Keperluan | Komponen |
+| --- | --- |
+| Peringkat kategori (banyak baris) | `CategoryBars` (horizontal) |
+| Sebaran pada rentang | `Histogram` (tegak) |
+| Komposisi 100%, ≤4 kategori | `Donut` |
+| Rentang antar-dua-nilai | `SalaryRange` |
+
+Donat **hanya** untuk ≤4 kategori. Lebih dari itu potongannya terlalu tipis —
+pakai `CategoryBars`.
+
+## Jebakan yang pernah menggigit
+
+**Batang mengambang `SalaryRange`** memakai segmen transparan pertama sebagai
+penyangga agar batang tidak selalu mulai dari nol. Jangan menghapusnya — tanpa
+itu bentuknya berubah makna.
+
+**Tooltip untuk seri bertumpuk** harus ditulis khusus dan membaca
+`payload[0].payload`, karena tooltip bawaan akan menampilkan potongan segmen,
+bukan angka aslinya.
+
+**Ukuran tick hidup di `theme.ts` (`TICK_SIZE`), bukan di `tokens.css`.**
+Recharts merender SVG dan ukurannya diteruskan sebagai prop, bukan lewat CSS.

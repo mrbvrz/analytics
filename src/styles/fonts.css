@@ -1,0 +1,30 @@
+/* ==========================================================================
+   fonts.css: Uncut Sans & Geist (Geist Sans / Geist Mono)
+   ========================================================================== */
+
+/* Uncut Sans (OFL-1.1, by Kasper Nordkvist) */
+@font-face {
+  font-family: "Uncut Sans";
+  src: url("/fonts/UncutSans-Variable.woff2") format("woff2-variations");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Geist Sans (OFL-1.1, by Vercel) */
+@font-face {
+  font-family: "Geist Sans";
+  src: url("/fonts/Geist-Variable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Geist Mono (OFL-1.1, by Vercel) */
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/GeistMono-Variable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

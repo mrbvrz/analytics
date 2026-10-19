@@ -1,0 +1,39 @@
+---
+description: Aturan sistem desain laporan pasar jasa website Jakarta
+globs: src/**/*.{tsx,ts,css}
+alwaysApply: true
+---
+
+# Sistem desain
+
+Sumber aturan lengkap: `AGENTS.md` di akar repo.
+Spesifikasi visual: `design-system/foundations.md`, `components.md`, `content.md`.
+
+## Aturan yang mengikat
+
+**Nilai visual selalu dari token.** `src/styles/tokens.css` adalah satu-satunya
+tempat nilai visual didefinisikan. Komponen memakai token semantik
+(`--text-muted`, `--border-default`), bukan primitif (`--stone-500`).
+
+**Tidak ada bobot huruf lewat `font-variation-settings`.** Pakai
+`font-weight: 550`. Uncut Sans punya sumbu `ital` (0–11) yang ditinggalkan pada
+keadaan ambigu oleh `font-variation-settings: "wght" N`, dan sebagian elemen
+menjadi miring tanpa diminta. `font-variation-settings` hanya untuk `ital`
+(lihat `em, i, .italic` di `global.css`).
+
+**Warna yang gagal kontras tidak boleh jadi teks.** `--stone-400` hanya 2,46:1
+di latar halaman dan gagal WCAG AA. Lantai teks paling redup adalah
+`--text-muted` (4,67:1). Teks aksen memakai `--clay-600`, bukan `--clay-500`.
+
+**Garis, bukan bayangan.** Satu-satunya bayangan di laporan ini ada pada tooltip
+grafik. Jangan menambah bayangan atau gradien.
+
+**Tanpa animasi.** Laporan ini statis.
+
+## Konvensi yang sudah ada, jangan dibuat ulang
+
+- Kisi garis rambut: `gap: 1px` + latar `--border-default`. Jangan memberi
+  `border` pada setiap sel.
+- Dua kolom: `.columns` dan `.columns--wide-left`. Runtuh di bawah 720px.
+- `Section` untuk setiap bagian; `ChartFrame` untuk setiap grafik.
+- Jarak hanya dari skala 4px (`--s1` … `--s18`). Jangan menulis `margin: 15px`.

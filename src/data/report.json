@@ -1,0 +1,4271 @@
+{
+  "meta": {
+    "generated": "2026-10-19T07:22:00.000Z",
+    "scope": "DKI Jakarta & Jabodetabek: Riset Pasar & Penentuan Harga Pembuatan Website",
+    "basis": "Riset Vendor Software House Jakarta, Meta Ad Library, dan Google Search Trends",
+    "sources": [
+      {
+        "key": "software_house",
+        "label": "Software House & Agensi Jakarta"
+      },
+      {
+        "key": "meta_ads",
+        "label": "Meta Ad Library (Instagram & Facebook)"
+      },
+      {
+        "key": "search_trends",
+        "label": "Google Search Trends & Keyword Planner"
+      }
+    ],
+    "pricingPolicy": "Prinsip Penetapan Harga: Seluruh angka dalam laporan ini adalah biaya murni pembuatan website (desain UI/UX, rekayasa kode front-end dan back-end, integrasi CMS, QA, serta peluncuran server). Anggaran iklan berbayar (Meta/TikTok ad spend), instalasi pelacak Pixel/CAPI, dan integrasi WhatsApp API ditagihkan sebagai layanan tambahan terpisah."
+  },
+  "softwareHouses": [
+    {
+      "name": "Suitmedia",
+      "location": "Jakarta Selatan",
+      "established": 2009,
+      "services": "Corporate Web Portal, E-Commerce Enterprise, Mobile App, Digital Strategy",
+      "techStack": "React, Next.js, Laravel, Python, Cloud VPS",
+      "priceRange": "Rp50.000.000 – Rp350.000.000+",
+      "priceMin": 50000000,
+      "priceMax": 350000000,
+      "typicalClient": "Korporasi multinasional, BUMN, brand retail nasional",
+      "strengths": "Skala enterprise, sertifikasi ISO, tim terintegrasi (UI/UX, PM, Tech, QA)"
+    },
+    {
+      "name": "Alba Tech (PT Alba Digital Teknologi)",
+      "location": "Jakarta Barat",
+      "established": 2017,
+      "services": "Custom Web Engineering, Fintech Platforms, Business SaaS, Mobile Dev",
+      "techStack": "Next.js, React, Node.js, Laravel, PostgreSQL",
+      "priceRange": "Rp30.000.000 – Rp150.000.000",
+      "priceMin": 30000000,
+      "priceMax": 150000000,
+      "typicalClient": "Scale-up startups, bisnis B2B menengah, institusi finansial",
+      "strengths": "Arsitektur kode bersih, performa tinggi, sistem pembayaran terintegrasi"
+    },
+    {
+      "name": "ToffeeDev",
+      "location": "Jakarta Barat",
+      "established": 2011,
+      "services": "High-Conversion Web Development, SEO Architecture, Corporate Website",
+      "techStack": "WordPress Custom Engine, Next.js, Headless CMS",
+      "priceRange": "Rp15.000.000 – Rp65.000.000",
+      "priceMin": 15000000,
+      "priceMax": 65000000,
+      "typicalClient": "Perusahaan menengah, industri manufaktur, distributor resmi",
+      "strengths": "Fokus pada konversi penjualan, PageSpeed 90+, struktur SEO kuat"
+    },
+    {
+      "name": "Whello Indonesia",
+      "location": "Jakarta & Bali",
+      "established": 2016,
+      "services": "Custom UI/UX Website, E-Commerce, Landing Page CRO, Brand Web",
+      "techStack": "WordPress Custom, WooCommerce, Tailwind CSS, PHP",
+      "priceRange": "Rp8.000.000 – Rp40.000.000",
+      "priceMin": 8000000,
+      "priceMax": 40000000,
+      "typicalClient": "Brand FMCG, agribisnis, hospitality, UMKM premium",
+      "strengths": "Desain UI/UX estetis di Figma, navigasi berorientasi konversi pengguna"
+    },
+    {
+      "name": "Tonjoo",
+      "location": "Jakarta & DIY",
+      "established": 2012,
+      "services": "Enterprise WordPress, Portal Berita Trafik Tinggi, Sistem Kampus / LMS",
+      "techStack": "WordPress Core, Custom Plugins, React/Headless, Redis",
+      "priceRange": "Rp15.000.000 – Rp120.000.000",
+      "priceMin": 15000000,
+      "priceMax": 120000000,
+      "typicalClient": "Media nasional, universitas ternama, kementerian / BUMN",
+      "strengths": "Mampu menangani jutaan hits per hari, keamanan tingkat tinggi"
+    },
+    {
+      "name": "Sagara Technology",
+      "location": "Jakarta Selatan",
+      "established": 2014,
+      "services": "Custom Enterprise Web, IT Talent Outsourcing, Cloud Modernization",
+      "techStack": "Golang, Node.js, React, AWS, Docker",
+      "priceRange": "Rp50.000.000 – Rp250.000.000+",
+      "priceMin": 50000000,
+      "priceMax": 250000000,
+      "typicalClient": "Perbankan, logistik nasional, kementerian",
+      "strengths": "Konsultasi teknologi komprehensif, tim developer berskala besar"
+    },
+    {
+      "name": "Badr Interactive",
+      "location": "Depok & Jakarta",
+      "established": 2011,
+      "services": "Custom Web Application, Sistem Publik, Healthtech, Edukasi",
+      "techStack": "Laravel, Vue.js, React, MySQL, PostgreSQL",
+      "priceRange": "Rp25.000.000 – Rp100.000.000",
+      "priceMin": 25000000,
+      "priceMax": 100000000,
+      "typicalClient": "Yayasan sosial, startup berkembang, organisasi publik",
+      "strengths": "Manajemen proyek agile terstruktur, dampak sosial tinggi"
+    },
+    {
+      "name": "CODE.ID (PT Inovasi Terbaik Bangsa)",
+      "location": "Jakarta Pusat",
+      "established": 2014,
+      "services": "Enterprise Web Architecture, Cloud Transformation, Core Business Systems",
+      "techStack": ".NET, Java, React, Microservices, Azure/AWS",
+      "priceRange": "Rp60.000.000 – Rp300.000.000+",
+      "priceMin": 60000000,
+      "priceMax": 300000000,
+      "typicalClient": "Institusi finansial, asuransi, konglomerasi",
+      "strengths": "Standar korporat ketat, audit kepatuhan keamanan data tingkat tinggi"
+    },
+    {
+      "name": "Doxadigital",
+      "location": "Jakarta Barat",
+      "established": 2002,
+      "services": "Corporate Website, B2B Lead Generation Hub, Web Redesign",
+      "techStack": "WordPress, PHP, Custom CSS, Google Tag Manager",
+      "priceRange": "Rp15.000.000 – Rp50.000.000",
+      "priceMin": 15000000,
+      "priceMax": 50000000,
+      "typicalClient": "Perusahaan B2B, manufaktur, legal & consulting",
+      "strengths": "Pengalaman 20+ tahun di ekosistem bisnis Jakarta"
+    }
+  ],
+  "marketingAddons": [
+    {
+      "category": "Tracking & Analytics Setup",
+      "name": "Setup Meta Pixel + Conversion API (CAPI) & Google Analytics 4",
+      "rate": "Rp1.500.000 – Rp3.500.000 (one-time)",
+      "deliverables": "Instalasi GTM, verifikasi domain Facebook, konfigurasi server-side event (ViewContent, Lead, Purchase)"
+    },
+    {
+      "category": "TikTok Tracking Setup",
+      "name": "Setup TikTok Pixel & Events API",
+      "rate": "Rp1.000.000 – Rp2.500.000 (one-time)",
+      "deliverables": "Event deduplication, integrasi browser pixel + server token webhook"
+    },
+    {
+      "category": "WhatsApp Automation",
+      "name": "Integrasi WhatsApp Business Cloud API & Lead Routing Bot",
+      "rate": "Rp2.000.000 – Rp5.000.000 (one-time) + biaya percakapan Meta",
+      "deliverables": "Auto-greeting, multi-agent rotation, sinkronisasi kontak ke CRM"
+    },
+    {
+      "category": "Ads Campaign Management",
+      "name": "Retainer Pengelolaan Iklan Meta / TikTok Ads",
+      "rate": "Rp3.000.000 – Rp8.000.000 / bulan (di luar ad spend)",
+      "deliverables": "Riset audiens, copywriting iklan, monitoring ROAS harian, A/B testing materi kreatif"
+    }
+  ],
+  "metaAdsAnalysis": {
+    "totalAdsSampled": 143,
+    "platforms": [
+      "Instagram",
+      "Facebook",
+      "Messenger",
+      "WhatsApp",
+      "Threads"
+    ],
+    "topCtas": [
+      {
+        "label": "Send WhatsApp message",
+        "count": 45
+      },
+      {
+        "label": "See details",
+        "count": 21
+      },
+      {
+        "label": "Learn more",
+        "count": 12
+      },
+      {
+        "label": "Get offer",
+        "count": 11
+      },
+      {
+        "label": "Sign up",
+        "count": 10
+      },
+      {
+        "label": "Visit Instagram profile",
+        "count": 9
+      }
+    ],
+    "adHookTypes": [
+      {
+        "tier": "Ritel Komoditas / Murah",
+        "priceRange": "Rp249.000 – Rp700.000",
+        "hookAngle": "Fokus harga terendah, promo hari ini, gratis domain + hosting 1 tahun",
+        "ctaDestination": "Direct WhatsApp (Order Instan)",
+        "example": "Sigma Creative: 'Bikin Website Profesional Mulai 249RB! Domain & Hosting Gratis 1 Tahun, Email Bisnis'"
+      },
+      {
+        "tier": "Agensi & Software House B2B",
+        "priceRange": "Rp5.000.000 – Rp35.000.000+",
+        "hookAngle": "Edukasi kredibilitas, website lambat = iklan boncos, pemahaman model bisnis & alur operasional",
+        "ctaDestination": "Landing Page Khusus -> Formulir Brief / Konsultasi WhatsApp",
+        "example": "WebNesia & Imajiner: 'Banyak jasa website hanya kasih tampilan tanpa paham alur bisnis. Stop coba-coba template murah abal-abal'"
+      }
+    ],
+    "tiktokFunnelStrategy": {
+      "format": "Video UGC / Founder POV (Hook 0–3 detik: 'Kenapa traffic ads tinggi tapi penjualan nol?')",
+      "requirement": "Kecepatan load website < 2 detik (bounce rate TikTok sangat tinggi jika lambat)",
+      "techStack": "Server-side Events API + Direct WhatsApp Lead Router"
+    }
+  },
+  "searchIntelligence": {
+    "totalMonthlyVolumeJabodetabek": 12400,
+    "averageCpc": 13800,
+    "keywords": [
+      {
+        "keyword": "jasa pembuatan website jakarta",
+        "monthlyVolume": 2900,
+        "cpcEstimasi": 14500,
+        "intent": "Transaksional",
+        "competition": "Sangat Tinggi",
+        "growthPct": 18
+      },
+      {
+        "keyword": "software house jakarta",
+        "monthlyVolume": 1600,
+        "cpcEstimasi": 18200,
+        "intent": "Komersial B2B",
+        "competition": "Tinggi",
+        "growthPct": 24
+      },
+      {
+        "keyword": "jasa pembuatan website company profile",
+        "monthlyVolume": 1900,
+        "cpcEstimasi": 12000,
+        "intent": "Transaksional",
+        "competition": "Sangat Tinggi",
+        "growthPct": 15
+      },
+      {
+        "keyword": "jasa landing page jakarta",
+        "monthlyVolume": 1300,
+        "cpcEstimasi": 9800,
+        "intent": "Transaksional",
+        "competition": "Tinggi",
+        "growthPct": 32
+      },
+      {
+        "keyword": "jasa web developer jakarta",
+        "monthlyVolume": 1100,
+        "cpcEstimasi": 16500,
+        "intent": "Komersial B2B",
+        "competition": "Tinggi",
+        "growthPct": 12
+      },
+      {
+        "keyword": "biaya pembuatan website perusahaan",
+        "monthlyVolume": 880,
+        "cpcEstimasi": 11200,
+        "intent": "Riset Biaya",
+        "competition": "Sedang",
+        "growthPct": 20
+      },
+      {
+        "keyword": "jasa pembuatan website e-commerce custom",
+        "monthlyVolume": 750,
+        "cpcEstimasi": 13800,
+        "intent": "Transaksional",
+        "competition": "Sedang",
+        "growthPct": 10
+      },
+      {
+        "keyword": "jasa redesign website jakarta",
+        "monthlyVolume": 590,
+        "cpcEstimasi": 10500,
+        "intent": "Revamp/Redesign",
+        "competition": "Sedang",
+        "growthPct": 28
+      }
+    ],
+    "seasonality": [
+      {
+        "period": "Q1 (Jan–Mar)",
+        "index": 128,
+        "reason": "Pencairan anggaran tahun baru, pembentukan PT baru, dan tender korporat."
+      },
+      {
+        "period": "Q2 (Apr–Jun)",
+        "index": 96,
+        "reason": "Fase libur Idul Fitri & peralihan anggaran tengah tahun."
+      },
+      {
+        "period": "Q3 (Jul–Sep)",
+        "index": 118,
+        "reason": "Ekspansi lini bisnis baru semester dua dan persiapan kampanye Q4."
+      },
+      {
+        "period": "Q4 (Okt–Des)",
+        "index": 104,
+        "reason": "Penyerapan sisa budget tahunan & persiapan go-live awal tahun depan."
+      }
+    ],
+    "channels": [
+      {
+        "channel": "Google Search Ads (Google SEM)",
+        "leadQuality": "Sangat Tinggi (High Intent)",
+        "cacEstimate": "Rp350.000 – Rp800.000 / lead",
+        "salesCycle": "1 – 2 Minggu",
+        "averageDealSize": "Rp12 jt – Rp35 jt",
+        "recommendation": "Saluran tercepat untuk mendapatkan 3 klien pertama software house baru. Targetkan kata kunci berbasis 'Jakarta' dan 'perusahaan'."
+      },
+      {
+        "channel": "SEO Organik (Website Sendiri)",
+        "leadQuality": "Tertinggi (Trust Alami)",
+        "cacEstimate": "Rp100.000 – Rp250.000 / lead (jangka panjang)",
+        "salesCycle": "2 – 4 Minggu",
+        "averageDealSize": "Rp15 jt – Rp50 jt+",
+        "recommendation": "Wajib dibangun sejak bulan pertama melalui artikel studi kasus arsitektur, portofolio live, dan optimasi 'software house jakarta'."
+      },
+      {
+        "channel": "Meta Ads (Instagram & Facebook)",
+        "leadQuality": "Sedang (Passive Discovery)",
+        "cacEstimate": "Rp80.000 – Rp200.000 / lead",
+        "salesCycle": "3 – 10 Hari",
+        "averageDealSize": "Rp5,5 jt – Rp16 jt",
+        "recommendation": "Sangat efektif untuk menjual paket Web Launchpad™ (Landing Page) & Company Profile UMKM naik kelas via pesan langsung ke WhatsApp."
+      },
+      {
+        "channel": "B2B Outbound / Cold LinkedIn",
+        "leadQuality": "Tinggi (Tertarget ke Decision Maker)",
+        "cacEstimate": "Tenaga & Waktu Founder",
+        "salesCycle": "4 – 8 Minggu",
+        "averageDealSize": "Rp35 jt – Rp120 jt+",
+        "recommendation": "Hubungi Direktur Marketing, Founder Startup, atau IT Manager perusahaan B2B yang websitenya lambat atau belum mobile-friendly."
+      },
+      {
+        "channel": "Kemitraan & Referral Agency Lain",
+        "leadQuality": "Sangat Tinggi (Rekomendasi Hangat)",
+        "cacEstimate": "Komisi 10% – 15%",
+        "salesCycle": "1 – 3 Minggu",
+        "averageDealSize": "Rp18 jt – Rp60 jt",
+        "recommendation": "Gandeng agensi Digital Marketing / Brand Consultant yang tidak punya tim developer internal untuk melempar proyek pembuatan web ke Anda."
+      }
+    ],
+    "techStackTrends": [
+      {
+        "name": "Next.js / React (App Router)",
+        "adoptionPct": 68,
+        "useCase": "High-speed landing page, SaaS dashboard, custom company profile",
+        "clientPerception": "Kecepatan muat instan, arsitektur modern standar industri, dan ramah SEO."
+      },
+      {
+        "name": "Laravel / PHP 8+",
+        "adoptionPct": 62,
+        "useCase": "Portal B2B, sistem informasi internal, backend REST API",
+        "clientPerception": "Fondasi stabil korporasi Indonesia, pemeliharaan jangka panjang terjamin."
+      },
+      {
+        "name": "WordPress + ACF Pro / Headless",
+        "adoptionPct": 56,
+        "useCase": "Company profile fleksibel, portal berita, blog SEO",
+        "clientPerception": "Dashboard konten intuitif, mudah dikelola staf non-teknis secara mandiri."
+      },
+      {
+        "name": "Framer / Webflow",
+        "adoptionPct": 38,
+        "useCase": "Landing page promosi cepat tanpa butuh kustom database",
+        "clientPerception": "Interaksi visual dinamis, efisien untuk peluncuran kampanye cepat."
+      }
+    ]
+  },
+  "market": {
+    "rawItems": 966,
+    "listingsUnique": 625,
+    "listingsPriced": 427,
+    "excludedNoise": 175,
+    "excludedBait": 20,
+    "excludedCap": 3,
+    "baitThreshold": 5000,
+    "stats": {
+      "n": 427,
+      "min": 6100,
+      "p10": 50000,
+      "p25": 110000,
+      "median": 399000,
+      "p75": 1200000,
+      "p90": 3000000,
+      "max": 13999000,
+      "mean": 1075042
+    },
+    "buckets": [
+      {
+        "label": "< Rp100 rb",
+        "count": 77,
+        "pct": 18
+      },
+      {
+        "label": "Rp100–500 rb",
+        "count": 158,
+        "pct": 37
+      },
+      {
+        "label": "Rp500 rb–1 jt",
+        "count": 68,
+        "pct": 16
+      },
+      {
+        "label": "Rp1–3 jt",
+        "count": 70,
+        "pct": 16
+      },
+      {
+        "label": "Rp3–10 jt",
+        "count": 50,
+        "pct": 12
+      },
+      {
+        "label": "> Rp10 jt",
+        "count": 4,
+        "pct": 1
+      }
+    ],
+    "bySource": [
+      {
+        "key": "shopee",
+        "label": "Shopee",
+        "n": 316,
+        "median": 350000,
+        "p25": 100000,
+        "p75": 766250,
+        "min": 6100,
+        "max": 13999000
+      },
+      {
+        "key": "blibli",
+        "label": "Blibli",
+        "n": 8,
+        "median": 100000,
+        "p25": 100000,
+        "p75": 100000,
+        "min": 100000,
+        "max": 4500000
+      },
+      {
+        "key": "tokopedia",
+        "label": "Tokopedia",
+        "n": 103,
+        "median": 1500000,
+        "p25": 299000,
+        "p75": 3000000,
+        "min": 10000,
+        "max": 12000000
+      }
+    ],
+    "segments": [
+      {
+        "key": "domain_hosting",
+        "label": "Domain + hosting",
+        "n": 100,
+        "share": 23,
+        "p25": 150000,
+        "median": 350000,
+        "p75": 881250,
+        "p25Tanpa": 100000,
+        "medianTanpa": 452200,
+        "p75Tanpa": 1250000,
+        "deltaMedian": -23,
+        "deltaP75": -30
+      },
+      {
+        "key": "company_profile",
+        "label": "Company profile",
+        "n": 95,
+        "share": 22,
+        "p25": 100000,
+        "median": 485000,
+        "p75": 949500,
+        "p25Tanpa": 123749,
+        "medianTanpa": 399000,
+        "p75Tanpa": 1262500,
+        "deltaMedian": 22,
+        "deltaP75": -25
+      },
+      {
+        "key": "toko_online",
+        "label": "Toko online",
+        "n": 91,
+        "share": 21,
+        "p25": 100000,
+        "median": 495000,
+        "p75": 1150000,
+        "p25Tanpa": 119500,
+        "medianTanpa": 399000,
+        "p75Tanpa": 1212500,
+        "deltaMedian": 24,
+        "deltaP75": -5
+      },
+      {
+        "key": "landing_page",
+        "label": "Landing page",
+        "n": 91,
+        "share": 21,
+        "p25": 100000,
+        "median": 300000,
+        "p75": 505302,
+        "p25Tanpa": 123249,
+        "medianTanpa": 490000,
+        "p75Tanpa": 1500000,
+        "deltaMedian": -39,
+        "deltaP75": -66
+      },
+      {
+        "key": "seo",
+        "label": "SEO / optimasi Google",
+        "n": 75,
+        "share": 18,
+        "p25": 225000,
+        "median": 500000,
+        "p75": 1250000,
+        "p25Tanpa": 100000,
+        "medianTanpa": 350000,
+        "p75Tanpa": 1200000,
+        "deltaMedian": 43,
+        "deltaP75": 4
+      },
+      {
+        "key": "umkm",
+        "label": "Website UMKM",
+        "n": 69,
+        "share": 16,
+        "p25": 100000,
+        "median": 300000,
+        "p75": 975000,
+        "p25Tanpa": 119750,
+        "medianTanpa": 449500,
+        "p75Tanpa": 1237500,
+        "deltaMedian": -33,
+        "deltaP75": -21
+      },
+      {
+        "key": "custom",
+        "label": "Custom development",
+        "n": 67,
+        "share": 16,
+        "p25": 89500,
+        "median": 423000,
+        "p75": 1374250,
+        "p25Tanpa": 141750,
+        "medianTanpa": 399000,
+        "p75Tanpa": 1124999,
+        "deltaMedian": 6,
+        "deltaP75": 22
+      },
+      {
+        "key": "sekolah",
+        "label": "Sekolah / instansi",
+        "n": 54,
+        "share": 13,
+        "p25": 200000,
+        "median": 350000,
+        "p75": 1150000,
+        "p25Tanpa": 100000,
+        "medianTanpa": 400000,
+        "p75Tanpa": 1200000,
+        "deltaMedian": -12,
+        "deltaP75": -4
+      },
+      {
+        "key": "instan",
+        "label": "Template siap pakai",
+        "n": 37,
+        "share": 9,
+        "p25": 100000,
+        "median": 275000,
+        "p75": 500000,
+        "p25Tanpa": 115750,
+        "medianTanpa": 436500,
+        "p75Tanpa": 1250000,
+        "deltaMedian": -37,
+        "deltaP75": -60
+      },
+      {
+        "key": "wordpress",
+        "label": "WordPress",
+        "n": 23,
+        "share": 5,
+        "p25": 90000,
+        "median": 198000,
+        "p75": 550000,
+        "p25Tanpa": 123749,
+        "medianTanpa": 426500,
+        "p75Tanpa": 1262500,
+        "deltaMedian": -54,
+        "deltaP75": -56
+      },
+      {
+        "key": "mobile",
+        "label": "Mobile responsive",
+        "n": 22,
+        "share": 5,
+        "p25": 58750,
+        "median": 260000,
+        "p75": 699750,
+        "p25Tanpa": 118000,
+        "medianTanpa": 400000,
+        "p75Tanpa": 1200000,
+        "deltaMedian": -35,
+        "deltaP75": -42
+      },
+      {
+        "key": "hosting_1tahun",
+        "label": "Hosting 1 tahun disertakan",
+        "n": 21,
+        "share": 5,
+        "p25": 199000,
+        "median": 350000,
+        "p75": 485000,
+        "p25Tanpa": 100000,
+        "medianTanpa": 400000,
+        "p75Tanpa": 1250000,
+        "deltaMedian": -12,
+        "deltaP75": -61
+      },
+      {
+        "key": "portfolio",
+        "label": "Portfolio / undangan",
+        "n": 11,
+        "share": 3,
+        "p25": 72500,
+        "median": 135000,
+        "p75": 442000,
+        "p25Tanpa": 117250,
+        "medianTanpa": 400000,
+        "p75Tanpa": 1250000,
+        "deltaMedian": -66,
+        "deltaP75": -65
+      },
+      {
+        "key": "blog",
+        "label": "Blog / portal berita",
+        "n": 10,
+        "share": 2,
+        "p25": 172988,
+        "median": 250000,
+        "p75": 584000,
+        "p25Tanpa": 110000,
+        "medianTanpa": 400000,
+        "p75Tanpa": 1200000,
+        "deltaMedian": -38,
+        "deltaP75": -51
+      }
+    ],
+    "examples": [
+      {
+        "category": "Domain + hosting",
+        "key": "domain_hosting",
+        "items": [
+          {
+            "name": "Jasa Pembuatan Website Untuk Perusahaan, Sekolah, Usaha, Dll. GRATIS DOMAIN ! MURAH!!!",
+            "price": 49900
+          },
+          {
+            "name": "Jasa pembuatan website profesional (GRATIS HOSTING DAN DOMAIN !! untuk Company profile, Website ",
+            "price": 220000
+          },
+          {
+            "name": "Jasa Pembuatan Website Custom Dengan Bonus Hosting",
+            "price": 499000
+          },
+          {
+            "name": "Jasa Buat Landing Page Website Profesional Premium Custom Desain Domain Siap Pakai",
+            "price": 3000000
+          }
+        ]
+      },
+      {
+        "category": "Company profile",
+        "key": "company_profile",
+        "items": [
+          {
+            "name": "Jasa Pembuatan Website | Buat Website | Bio Link, Landing Page, Company Profile untuk Bisnis & T",
+            "price": 18000
+          },
+          {
+            "name": "TOKOFILE Jasa Pembuatan & Clone/Replikasi Website Bisnis UMKM | Landing Page, Company Profile, T",
+            "price": 198000
+          },
+          {
+            "name": "Pembuatan Website Company Profile",
+            "price": 650000
+          },
+          {
+            "name": "Jasa Buat Website Company Profile",
+            "price": 3800000
+          }
+        ]
+      },
+      {
+        "category": "Toko online",
+        "key": "toko_online",
+        "items": [
+          {
+            "name": "Jasa Pembuatan Website Profesional | Website Bisnis, Toko Online, Company Profile, Landing Page ",
+            "price": 20000
+          },
+          {
+            "name": "Jasa Pembuatan Website Profesional & Murah | Landing Page, Toko Online, Company Profile | Gratis",
+            "price": 175000
+          },
+          {
+            "name": "Jasa Pembuatan Website Toko Online",
+            "price": 750000
+          },
+          {
+            "name": "Jasa Pembuatan Website Profesional + Domain Hosting 5 Tahun | Website Company Profile Toko Onlin",
+            "price": 4500000
+          }
+        ]
+      },
+      {
+        "category": "Landing page",
+        "key": "landing_page",
+        "items": [
+          {
+            "name": "Jasa Pembuatan Website Profesional | Website Bisnis, Toko Online, Company Profile, Landing Page ",
+            "price": 20000
+          },
+          {
+            "name": "Jasa Pembuatan Website UMKM & Landing Page Professional dengan Paket Premium Fitur Lengkap dan A",
+            "price": 150000
+          },
+          {
+            "name": "Jasa Pembuatan Website Company Profile | Landing Page | Portofolio dan lainnya",
+            "price": 495000
+          },
+          {
+            "name": "Jasa Buat Landing Page Website Profesional Premium Custom Desain Domain Siap Pakai",
+            "price": 1500000
+          }
+        ]
+      },
+      {
+        "category": "SEO / optimasi Google",
+        "key": "seo",
+        "items": [
+          {
+            "name": "Jasa SEO Website Full Setup",
+            "price": 50000
+          },
+          {
+            "name": "Website Kasir - Domain Hosting 1 Tahun - Optimasi Google Dasar - Web POS - Web Manajemen Toko - ",
+            "price": 350000
+          },
+          {
+            "name": "Website Ekspor Impor - Domain Hosting 1 Tahun - Optimasi Google Dasar - Web Perdagangan Global -",
+            "price": 764000
+          },
+          {
+            "name": "Jasa SEO Website Peringkat 1 Halaman Pertama Guugle Bergaransi",
+            "price": 5617500
+          }
+        ]
+      },
+      {
+        "category": "Website UMKM",
+        "key": "umkm",
+        "items": [
+          {
+            "name": "Jasa Website UMKM Modrn Clean Responsive",
+            "price": 10000
+          },
+          {
+            "name": "Jasa Pembuatan Website UMKM & Landing Page Professional dengan Paket Premium Fitur Lengkap dan A",
+            "price": 150000
+          },
+          {
+            "name": "Jasa Pembuatan Website Professional dan Modern untuk UMKM Bisnis, Sekolah, Company Profile dan L",
+            "price": 500000
+          },
+          {
+            "name": "Paket Website Jasa Profesional & UMKM – Solusi Digital untuk Bisnis Modern",
+            "price": 3800000
+          }
+        ]
+      },
+      {
+        "category": "Custom development",
+        "key": "custom",
+        "items": [
+          {
+            "name": "Jasa Pembuatan Website Custom Profesional",
+            "price": 20000
+          },
+          {
+            "name": "Jasa Pembuatan Sistem Custom - Website / Aplikasi",
+            "price": 100000
+          },
+          {
+            "name": "Jasa Pembuatan Website Custom Profesional dengan Team Profesional Solusi Sesuai Keinginan Free H",
+            "price": 550000
+          },
+          {
+            "name": "Jasa Pembuatan Website E-Commerce Custom | Toko Online & Sistem Penjualan",
+            "price": 10000000
+          }
+        ]
+      },
+      {
+        "category": "Sekolah / instansi",
+        "key": "sekolah",
+        "items": [
+          {
+            "name": "Jasa Pembuatan Website Untuk Perusahaan, Sekolah, Usaha, Dll. GRATIS DOMAIN ! MURAH!!!",
+            "price": 49900
+          },
+          {
+            "name": "Website Pondok Pesantren - Gratis Domain & Hosting - SEO Google - Web Santri - Web Pendidikan Is",
+            "price": 275000
+          },
+          {
+            "name": "Jasa Pembuatan Website Profesional + Bonus Plugin Absensi Wajah WordPress – Cocok untuk Kampus &",
+            "price": 600000
+          },
+          {
+            "name": "Jasa buat website sekolah profesional",
+            "price": 4750000
+          }
+        ]
+      },
+      {
+        "category": "Template siap pakai",
+        "key": "instan",
+        "items": [
+          {
+            "name": "Perbaiki Website - Tampilan Lebih Rapi - Optimasi Google Dasar - Web Bisnis - Web Lebih Cepat - ",
+            "price": 55000
+          },
+          {
+            "name": "Website Toko Online - Gratis Domain & Hosting - 1 Hari Jadi - Web Toko - Web Jualan Online - Jas",
+            "price": 145000
+          },
+          {
+            "name": "Jasa Pembuatan Website Berita 1 Hari Jadi (Terima Beres)",
+            "price": 449000
+          },
+          {
+            "name": "Jasa Website UMKM Siap Pakai – Profesional, Modern & Mudah Digunakan",
+            "price": 3500000
+          }
+        ]
+      },
+      {
+        "category": "WordPress",
+        "key": "wordpress",
+        "items": [
+          {
+            "name": "Jasa Pembuatan Website Penghasil Uang Otomatis Theme Premium WordPress.org Domain COM",
+            "price": 48500
+          },
+          {
+            "name": "Jasa pembuatan website, untuk funiture siap online dengan menggunakan wordpress",
+            "price": 100000
+          },
+          {
+            "name": "Jasa Pembuatan website landing page wordpress event sekolah umkm",
+            "price": 249000
+          },
+          {
+            "name": "Jasa pembuatan website toko online wordpress integrasi payment gateway",
+            "price": 839550
+          }
+        ]
+      },
+      {
+        "category": "Mobile responsive",
+        "key": "mobile",
+        "items": [
+          {
+            "name": "Jasa Pembuatan Website Toko Online Responsive",
+            "price": 10000
+          },
+          {
+            "name": "Jasa Pembuatan Website Company Profile & Toko Online UMKM - Gratis Domain + Hosting 1 Tahun, Adm",
+            "price": 100000
+          },
+          {
+            "name": "Jasa Pembuatan Website Company Profile Profesional untuk UMKM CV PT Mobile Friendly Desain Moder",
+            "price": 648600
+          },
+          {
+            "name": "Jasa Pembuatan Website Institusi Sekolah Yayasan Kampus – Profesional, Mobile Friendly & SEO Rea",
+            "price": 1990000
+          }
+        ]
+      },
+      {
+        "category": "Hosting 1 tahun disertakan",
+        "key": "hosting_1tahun",
+        "items": [
+          {
+            "name": "Jasa Buat Website Murah- Domain Hosting 1 Tahun - Optimasi Google Dasar - Web Profesional - Web ",
+            "price": 135000
+          },
+          {
+            "name": "Website Custom - Domain Hosting 1 Tahun - Optimasi Google Dasar - Web Sistem Khusus - Web Aplika",
+            "price": 285000
+          },
+          {
+            "name": "Jasa pembuatan website inovatif dan murah,free hosting 1tahun, domain (my.id), bisa revisi",
+            "price": 475000
+          },
+          {
+            "name": "Jasa Buat Website Paket UMKM Go Digital! Termasuk Domain & Hosting Gratis 1 Tahun SEO Dasar Inte",
+            "price": 1521000
+          }
+        ]
+      },
+      {
+        "category": "Portfolio / undangan",
+        "key": "portfolio",
+        "items": [
+          {
+            "name": "MUDAHIN - Jasa Desain Website Portofolio Profesional Permanen",
+            "price": 20000
+          },
+          {
+            "name": "Jasa Pembuatan Website Landing Page Murah Professional Web Sekolah UMKM Portofolio Biz - Azhari.",
+            "price": 75000
+          },
+          {
+            "name": "Jasa Pembuatan Website Portfolio Profesional | Website Pribadi, Bisnis & Personal Branding",
+            "price": 399000
+          },
+          {
+            "name": "Jasa Pembuatan Website Profesional & Cepat Mulai 500rb Web Toko Online CV Portofolio Linktree La",
+            "price": 500000
+          }
+        ]
+      },
+      {
+        "category": "Blog / portal berita",
+        "key": "blog",
+        "items": [
+          {
+            "name": "Jasa Pembuatan Website WordPress HTML5 PHP untuk Profil Perusahaan E-Commerce Blog dan Toko Onli",
+            "price": 15000
+          },
+          {
+            "name": "Jasa Pembuatan Website Blogger Portal Berita 100% Monetisasi Alternative AdSense",
+            "price": 244950
+          },
+          {
+            "name": "Jasa Pembuatan Website langsung dapat Adsense TERMURAH",
+            "price": 350000
+          },
+          {
+            "name": "Jasa Website Portal Berita - Web Media Berita Online SEO Friendly",
+            "price": 2500000
+          }
+        ]
+      }
+    ]
+  },
+  "listings": [
+    {
+      "p": 139000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 999000,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 45000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 499999,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1050000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 6500000,
+      "t": [
+        "company_profile",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1550000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 5000000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 485000,
+      "t": [
+        "domain_hosting",
+        "custom",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 45000,
+      "t": [
+        "custom",
+        "umkm",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 550000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 285000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "custom",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 475000,
+      "t": [
+        "domain_hosting",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "custom",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1498500,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 549000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 5800000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "custom",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 80000,
+      "t": [
+        "landing_page",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 200000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 2500000,
+      "t": [
+        "domain_hosting",
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 110000,
+      "t": [
+        "sekolah",
+        "wordpress",
+        "portfolio"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 20000,
+      "t": [
+        "toko_online",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 25000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "seo",
+        "custom",
+        "umkm",
+        "mobile",
+        "logo_branding"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "seo",
+        "custom",
+        "maintenance"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 10500000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "custom",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 20000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "custom",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "custom",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 227500,
+      "t": [
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "toko_online",
+        "custom",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 10000000,
+      "t": [
+        "toko_online",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 850000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 99000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 2500000,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 135000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "portfolio",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 145000,
+      "t": [
+        "domain_hosting",
+        "toko_online",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 250000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "wordpress",
+        "portfolio",
+        "blog"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 380000,
+      "t": [
+        "maintenance"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "toko_online",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 850000,
+      "t": [
+        "domain_hosting",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 150000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 750000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 40000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 275000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "seo",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 540000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 51000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 495000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "portfolio"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 13999000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "blog"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 499950,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 18000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1100000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "custom",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 250000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 1990000,
+      "t": [
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 750000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 45000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 499000,
+      "t": [
+        "domain_hosting",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 650000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1000000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 200000,
+      "t": [
+        "landing_page",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 6100,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 790000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 10000,
+      "t": [
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 198000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "custom",
+        "umkm",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1775000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 10000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 150000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 25000,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 55000,
+      "t": [
+        "seo",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 275000,
+      "t": [
+        "domain_hosting",
+        "toko_online",
+        "seo",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 75000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 285000,
+      "t": [
+        "domain_hosting",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 20000,
+      "t": [
+        "portfolio"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 335000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 375000,
+      "t": [
+        "domain_hosting",
+        "landing_page",
+        "seo",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 285000,
+      "t": [
+        "domain_hosting",
+        "sekolah",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 190000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 97000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 10000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "domain_hosting",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 72000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 22500,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 485000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "seo",
+        "portfolio",
+        "logo_branding",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 572000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 124999,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 270000,
+      "t": [
+        "domain_hosting",
+        "toko_online",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 75000,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 7500000,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 5617500,
+      "t": [
+        "seo",
+        "maintenance"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 3256730,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1050000,
+      "t": [
+        "toko_online",
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 550000,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 400000,
+      "t": [
+        "seo",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 250000,
+      "t": [
+        "seo",
+        "blog"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 700000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "seo",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 850000,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 600000,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 950000,
+      "t": [
+        "seo",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 550000,
+      "t": [
+        "domain_hosting",
+        "landing_page",
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 275000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "landing_page",
+        "seo",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 450000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 360000,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 190000,
+      "t": [
+        "domain_hosting",
+        "landing_page",
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 275000,
+      "t": [
+        "domain_hosting",
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 149000,
+      "t": [
+        "seo",
+        "blog"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 175000,
+      "t": [
+        "domain_hosting",
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 200000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 2500000,
+      "t": [
+        "seo",
+        "blog"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 98000,
+      "t": [
+        "seo",
+        "instan",
+        "blog"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 45000,
+      "t": [
+        "landing_page",
+        "seo",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 39901,
+      "t": [
+        "landing_page",
+        "seo",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 599000,
+      "t": [
+        "seo",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1098500,
+      "t": [
+        "landing_page",
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 99000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1250000,
+      "t": [
+        "toko_online",
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 699000,
+      "t": [
+        "landing_page",
+        "seo",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 839550,
+      "t": [
+        "toko_online",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "sekolah",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 662000,
+      "t": [
+        "wordpress",
+        "blog"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 200000,
+      "t": [
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1200000,
+      "t": [
+        "instan",
+        "wordpress",
+        "blog",
+        "maintenance"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 48500,
+      "t": [
+        "domain_hosting",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 150000,
+      "t": [
+        "sekolah",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 650000,
+      "t": [
+        "domain_hosting",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 249000,
+      "t": [
+        "landing_page",
+        "umkm",
+        "sekolah",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 600000,
+      "t": [
+        "sekolah",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 200000,
+      "t": [
+        "company_profile",
+        "custom",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 15000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "wordpress",
+        "blog"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 80000,
+      "t": [
+        "custom",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 850000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "custom",
+        "wordpress",
+        "portfolio"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 70000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "custom",
+        "wordpress",
+        "portfolio"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1550000,
+      "t": [
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 900000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 150000,
+      "t": [
+        "domain_hosting",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 220000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 899000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 270000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 199000,
+      "t": [
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 150000,
+      "t": [
+        "domain_hosting",
+        "landing_page",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1000000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 525000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "seo",
+        "logo_branding"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "domain_hosting",
+        "sekolah",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 99000,
+      "t": [
+        "domain_hosting",
+        "umkm",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 25000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 275000,
+      "t": [
+        "domain_hosting",
+        "toko_online",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 360000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 200000,
+      "t": [
+        "domain_hosting",
+        "sekolah",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 399000,
+      "t": [
+        "portfolio",
+        "logo_branding"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 99000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 85000,
+      "t": [
+        "domain_hosting",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 200000,
+      "t": [
+        "domain_hosting",
+        "sekolah",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 449000,
+      "t": [
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 485000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1000000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 175000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1495000,
+      "t": [
+        "domain_hosting",
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 975000,
+      "t": [
+        "domain_hosting",
+        "toko_online",
+        "umkm",
+        "logo_branding"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 2100000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 399000,
+      "t": [
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 339000,
+      "t": [
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "umkm",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 2000000,
+      "t": [
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 75000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "umkm",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 299000,
+      "t": [
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 99000,
+      "t": [
+        "toko_online",
+        "landing_page",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 99000,
+      "t": [
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 200000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 199000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "umkm",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "domain_hosting",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 75000,
+      "t": [
+        "landing_page",
+        "umkm",
+        "sekolah",
+        "portfolio"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 150000,
+      "t": [
+        "domain_hosting",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 75000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "umkm",
+        "logo_branding"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1099999,
+      "t": [
+        "umkm",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 550000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "custom",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 150000,
+      "t": [
+        "custom",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 648600,
+      "t": [
+        "company_profile",
+        "umkm",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 250000,
+      "t": [
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 97000,
+      "t": [
+        "toko_online",
+        "umkm",
+        "logo_branding"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 799000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "umkm",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 750000,
+      "t": [
+        "company_profile",
+        "seo",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 785000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 648600,
+      "t": [
+        "toko_online",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "umkm",
+        "mobile",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 499000,
+      "t": [
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1200000,
+      "t": [
+        "domain_hosting",
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 3300000,
+      "t": [
+        "domain_hosting",
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 4500000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 91000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 699000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 29000,
+      "t": [
+        "toko_online",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 525000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 687500,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 2500000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 675157,
+      "t": [
+        "company_profile",
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 400000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 400000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1000000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "toko_online",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 900000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1400000,
+      "t": [
+        "seo"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 75000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 485000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 499000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 150000,
+      "t": [
+        "company_profile",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 115000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 190000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "hosting_1tahun"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 244950,
+      "t": [
+        "blog"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 495000,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 3000000,
+      "t": [
+        "company_profile",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 5000000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 600000,
+      "t": [
+        "maintenance"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 118000,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 45000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 125000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "domain_hosting",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 399000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1200000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 4750000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 110000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 850000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 4500000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "umkm",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "sekolah",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 99000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 200000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1000000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1990000,
+      "t": [
+        "seo",
+        "sekolah",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 49900,
+      "t": [
+        "domain_hosting",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 750000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "sekolah",
+        "maintenance"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 760000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 2900000,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "domain_hosting"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 5511120,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 3000000,
+      "t": [
+        "custom",
+        "mobile",
+        "maintenance"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 4750000,
+      "t": [
+        "landing_page",
+        "logo_branding"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "landing_page",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 495000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 799000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1200000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "seo",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 250000,
+      "t": [
+        "toko_online",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1250000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "landing_page",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "landing_page",
+        "instan",
+        "wordpress"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "landing_page",
+        "logo_branding"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 452200,
+      "t": [
+        "landing_page",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "toko_online",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 250000,
+      "t": [
+        "landing_page",
+        "umkm"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 200000,
+      "t": [
+        "landing_page",
+        "custom",
+        "mobile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 35000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 505712,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 675000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 99000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1000000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 250000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 2000000,
+      "t": [
+        "domain_hosting",
+        "toko_online"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 1998500,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 250000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 1000000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 1200000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 430000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "instan"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 399000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "company_profile",
+        "sekolah"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 504892,
+      "t": [
+        "company_profile",
+        "landing_page"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 90000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 99000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "custom"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 100000,
+      "t": [],
+      "s": "shopee"
+    },
+    {
+      "p": 59900,
+      "t": [
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "domain_hosting",
+        "company_profile"
+      ],
+      "s": "shopee"
+    },
+    {
+      "p": 4500000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "umkm",
+        "sekolah"
+      ],
+      "s": "blibli"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "blibli"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "instan"
+      ],
+      "s": "blibli"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "instan"
+      ],
+      "s": "blibli"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "toko_online",
+        "instan"
+      ],
+      "s": "blibli"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "instan"
+      ],
+      "s": "blibli"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "instan"
+      ],
+      "s": "blibli"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "instan"
+      ],
+      "s": "blibli"
+    },
+    {
+      "p": 3500000,
+      "t": [
+        "company_profile",
+        "toko_online"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3000000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1250000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "seo",
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "landing_page"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 10000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1330000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3000000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 99750,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1250000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "seo",
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 2350000,
+      "t": [
+        "company_profile",
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "domain_hosting",
+        "company_profile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "company_profile",
+        "umkm",
+        "sekolah"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 10000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "toko_online",
+        "landing_page"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 750000,
+      "t": [
+        "company_profile",
+        "wordpress"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 10000,
+      "t": [
+        "domain_hosting",
+        "company_profile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1000000,
+      "t": [
+        "domain_hosting",
+        "company_profile",
+        "seo",
+        "hosting_1tahun"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 201000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "company_profile",
+        "landing_page",
+        "seo",
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 12000000,
+      "t": [
+        "toko_online",
+        "custom",
+        "instan"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 12000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1409060,
+      "t": [
+        "toko_online"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 10000,
+      "t": [
+        "toko_online",
+        "mobile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "domain_hosting",
+        "toko_online"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1300000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 150000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3000000,
+      "t": [
+        "toko_online"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 550000,
+      "t": [
+        "company_profile",
+        "toko_online"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 144000,
+      "t": [
+        "company_profile",
+        "toko_online",
+        "landing_page",
+        "umkm",
+        "instan"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "toko_online",
+        "landing_page",
+        "portfolio"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 250000,
+      "t": [
+        "toko_online",
+        "sekolah"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 500000,
+      "t": [
+        "landing_page",
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 4500000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 300000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 580000,
+      "t": [
+        "landing_page"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 120000,
+      "t": [
+        "landing_page",
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 150000,
+      "t": [
+        "landing_page",
+        "instan",
+        "mobile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 150000,
+      "t": [
+        "landing_page",
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3800000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 5000000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3000000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3500000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "sekolah"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 2899000,
+      "t": [
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1521000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "umkm",
+        "hosting_1tahun"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 320000,
+      "t": [
+        "umkm",
+        "mobile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 423000,
+      "t": [
+        "landing_page",
+        "seo",
+        "custom",
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3500000,
+      "t": [
+        "umkm",
+        "instan"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 10000,
+      "t": [
+        "landing_page",
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 2150000,
+      "t": [
+        "domain_hosting",
+        "umkm",
+        "hosting_1tahun"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3800000,
+      "t": [
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 10000,
+      "t": [
+        "umkm",
+        "mobile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 4000000,
+      "t": [
+        "umkm"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "seo"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 9900000,
+      "t": [
+        "seo"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3000000,
+      "t": [
+        "seo"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 750000,
+      "t": [
+        "seo",
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 2000000,
+      "t": [
+        "seo"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "seo"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "seo"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "seo"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "seo"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 350000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "maintenance",
+        "hosting_1tahun"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 6250000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "custom",
+        "maintenance"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "custom",
+        "mobile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 100000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1000000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3000000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 5000000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3000000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 2500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 2500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 10000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 764000,
+      "t": [
+        "domain_hosting",
+        "seo",
+        "hosting_1tahun"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3800000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 4500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 5000000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 299000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 2500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 299000,
+      "t": [
+        "company_profile"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 1500000,
+      "t": [
+        "domain_hosting",
+        "landing_page",
+        "custom",
+        "instan"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 6500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3000000,
+      "t": [
+        "domain_hosting",
+        "landing_page",
+        "custom",
+        "instan"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 20000,
+      "t": [
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 2500000,
+      "t": [
+        "domain_hosting",
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 50000,
+      "t": [
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 550000,
+      "t": [
+        "domain_hosting",
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 10000,
+      "t": [
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 100000,
+      "t": [
+        "custom"
+      ],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3000000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3000000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 4000000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 3500000,
+      "t": [],
+      "s": "tokopedia"
+    },
+    {
+      "p": 2500000,
+      "t": [],
+      "s": "tokopedia"
+    }
+  ],
+  "legend": {
+    "domain_hosting": "Domain + hosting",
+    "company_profile": "Company profile",
+    "toko_online": "Toko online",
+    "landing_page": "Landing page",
+    "seo": "SEO / optimasi Google",
+    "custom": "Custom development",
+    "umkm": "Website UMKM",
+    "sekolah": "Sekolah / instansi",
+    "instan": "Template siap pakai",
+    "wordpress": "WordPress",
+    "portfolio": "Portfolio / undangan",
+    "mobile": "Mobile responsive",
+    "logo_branding": "Termasuk logo / branding",
+    "blog": "Blog / portal berita",
+    "maintenance": "Maintenance / garansi",
+    "hosting_1tahun": "Hosting 1 tahun disertakan"
+  }
+}
