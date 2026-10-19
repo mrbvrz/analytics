@@ -354,6 +354,7 @@ main,
 }
 
 .stat {
+  position: relative;
   background: color-mix(in srgb, var(--surface-page) 88%, transparent);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -361,11 +362,16 @@ main,
   display: flex;
   flex-direction: column;
   gap: var(--s1);
-  transition: background-color 0.15s ease, border-color 0.15s ease;
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: default;
 }
 
 .stat:hover {
-  background: var(--surface-sunken);
+  background: color-mix(in srgb, var(--accent) 5.5%, var(--surface-page));
+  box-shadow: 0 0 0 1.5px var(--accent), 0 8px 24px -4px color-mix(in srgb, var(--accent) 20%, transparent);
+  z-index: 2;
+  transform: translateY(-2px);
+  border-radius: 4px;
 }
 
 .stat__top {
@@ -385,13 +391,15 @@ main,
   background: color-mix(in srgb, var(--accent) 12%, transparent);
   color: var(--accent);
   border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
-  transition: all 0.2s ease;
+  transition: all 0.22s ease;
 }
 
 .stat:hover .stat__icon-box {
-  background: color-mix(in srgb, var(--accent) 20%, transparent);
+  background: var(--accent);
+  color: #ffffff;
   border-color: var(--accent);
-  transform: translateY(-1px);
+  transform: scale(1.08) translateY(-1px);
+  box-shadow: 0 3px 10px color-mix(in srgb, var(--accent) 35%, transparent);
 }
 
 .stat__value {
@@ -402,6 +410,11 @@ main,
   line-height: 1.25;
   color: var(--text-primary);
   word-break: break-word;
+  transition: color 0.18s ease;
+}
+
+.stat:hover .stat__value {
+  color: var(--clay-700);
 }
 
 .stat__label {
@@ -409,6 +422,11 @@ main,
   color: var(--text-muted);
   line-height: 1.4;
   margin-top: 2px;
+  transition: color 0.18s ease;
+}
+
+.stat:hover .stat__label {
+  color: var(--text-secondary);
 }
 
 .stat__source {
