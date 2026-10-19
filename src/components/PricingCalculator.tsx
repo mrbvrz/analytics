@@ -217,13 +217,19 @@ export function PricingCalculator({}: PricingCalculatorProps) {
     const grossMarginPct =
       pureWebPrice > cogs ? Math.round(((pureWebPrice - cogs) / pureWebPrice) * 100) : 0;
 
+    const grandTotal = pureWebPrice + marketingAddonTotal;
+    const minGrandTotal = minWebPrice + marketingAddonTotal;
+    const maxGrandTotal = maxWebPrice + marketingAddonTotal;
+
     return {
       cogs,
       pureWebPrice,
       minWebPrice,
       maxWebPrice,
       marketingAddonTotal,
-      grandTotal: pureWebPrice + marketingAddonTotal,
+      grandTotal,
+      minGrandTotal,
+      maxGrandTotal,
       grossMarginPct,
     };
   }, [
@@ -456,11 +462,32 @@ export function PricingCalculator({}: PricingCalculatorProps) {
         {/* Kolom Kanan: Output Rekomendasi & Breakdown */}
         <div className="calc-summary">
           <div className="calc-summary__header">
-            <span className="calc-summary__tag">Estimasi Harga Pembuatan Web Murni</span>
-            <div className="calc-summary__main-price">{rp(calculation.pureWebPrice)}</div>
+            <span className="calc-summary__tag">
+              {calculation.marketingAddonTotal > 0
+                ? "Total Estimasi Nilai Proyek (Termasuk Add-on)"
+                : "Estimasi Harga Pembuatan Web Murni"}
+            </span>
+            <div className="calc-summary__main-price">{rp(calculation.grandTotal)}</div>
             <div className="calc-summary__price-range">
-              Rentang penawaran aman: <b>{rp(calculation.minWebPrice)}</b> hingga <b>{rp(calculation.maxWebPrice)}</b>
+              Rentang penawaran aman: <b>{rp(calculation.minGrandTotal)}</b> hingga <b>{rp(calculation.maxGrandTotal)}</b>
             </div>
+            {calculation.marketingAddonTotal > 0 && (
+              <div
+                style={{
+                  marginTop: "8px",
+                  fontSize: "12px",
+                  color: "var(--text-accent)",                  fontWeight: 500,
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "6px",
+                  flexWrap: "wrap",
+                }}
+              >
+                <span>Biaya Web Murni: <b>{rp(calculation.pureWebPrice)}</b></span>
+                <span>·</span>
+                <span>Add-on Iklan & Tracking: <b>+ {rp(calculation.marketingAddonTotal)}</b></span>
+              </div>
+            )}
           </div>
 
           <div className="calc-summary__metrics">
@@ -519,7 +546,10 @@ export function PricingCalculator({}: PricingCalculatorProps) {
               </div>
             </div>
             <p className="calc-benchmark__footer">
-              Nilai penawaran software house Anda (<strong>{rp(calculation.pureWebPrice)}</strong>) didasarkan
+              Nilai penawaran software house Anda (<strong>{rp(calculation.grandTotal)}</strong>
+              {calculation.marketingAddonTotal > 0
+                ? " [termasuk add-on iklan & tracking]"
+                : ""}) didasarkan
               pada jam kerja riil tim profesional. Klien korporat di Jakarta membayar untuk kepastian tanggal rilis,
               keamanan data, dan garansi pasca-peluncuran.
             </p>
@@ -527,7 +557,9 @@ export function PricingCalculator({}: PricingCalculatorProps) {
 
           {/* Panduan Termin Pembayaran */}
           <div className="calc-payment-terms">
-            <h4 className="calc-payment-terms__title">Rekomendasi Skema Termin Pembayaran Aman</h4>
+            <h4 className="calc-payment-terms__title">
+              Rekomendasi Skema Termin Pembayaran Aman{calculation.marketingAddonTotal > 0 ? " (Total Proyek)" : ""}
+            </h4>
             <div className="calc-payment-terms__steps">
               <div className="calc-term-step">
                 <span className="calc-term-step__badge">
@@ -535,7 +567,7 @@ export function PricingCalculator({}: PricingCalculatorProps) {
                   50% DP Muka
                 </span>
                 <div className="calc-term-step__desc">
-                  <strong>{rp(calculation.pureWebPrice * 0.5)}</strong> saat penandatanganan SPK / invoice DP
+                  <strong>{rp(calculation.grandTotal * 0.5)}</strong> saat penandatanganan SPK / invoice DP
                 </div>
               </div>
               <div className="calc-term-step">
@@ -544,7 +576,7 @@ export function PricingCalculator({}: PricingCalculatorProps) {
                   30% Demo Staging
                 </span>
                 <div className="calc-term-step__desc">
-                  <strong>{rp(calculation.pureWebPrice * 0.3)}</strong> setelah demo seluruh fitur di server uji disetujui
+                  <strong>{rp(calculation.grandTotal * 0.3)}</strong> setelah demo seluruh fitur di server uji disetujui
                 </div>
               </div>
               <div className="calc-term-step">
@@ -553,7 +585,7 @@ export function PricingCalculator({}: PricingCalculatorProps) {
                   20% Pelunasan
                 </span>
                 <div className="calc-term-step__desc">
-                  <strong>{rp(calculation.pureWebPrice * 0.2)}</strong> sebelum penyerahan kredensial hosting &amp; pointing live
+                  <strong>{rp(calculation.grandTotal * 0.2)}</strong> sebelum penyerahan kredensial hosting &amp; pointing live
                 </div>
               </div>
             </div>
